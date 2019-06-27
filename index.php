@@ -1,3 +1,4 @@
+      <?php get_header(); ?>
       <div id="home" class="parallax first-section" style="background-image:url('uploads/building/slide-img1.png');">
          <div class="container">
             <div class="row justify-content-center">
@@ -331,3 +332,4 @@
          <!-- end container -->
       </div>
       <!-- end section -->
+      <?php get_footer(); ?>
