@@ -9,14 +9,14 @@
     // Functions
     function contact_proc() {
         // Post data
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $service = $_POST['service'];
-        $message = $_POST['message'];
-        $datetime = date('Y-m-d h:i:sa');
-        $ip = $_SERVER['REMOTE_ADDR'];
+        $fname = strval($_POST['fname']);
+        $lname = strval($_POST['lname']);
+        $email = straval($_POST['email']);
+        $phone = strval($_POST['phone']);
+        $service = strval($_POST['service']);
+        $message = strval($_POST['message']);
+        $datetime = strval(date('Y-m-d h:i:sa'));
+        $ip = strval($_SERVER['REMOTE_ADDR']);
         $browser = get_browser(null, true);
         $client = strval($browser['parent']);
         $os = strval($browser['platform']);
