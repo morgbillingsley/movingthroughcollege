@@ -15,7 +15,7 @@
         $phone = strval($_POST['phone']);
         $service = strval($_POST['service']);
         $message = strval($_POST['message']);
-        $datetime = strval(date('Y-m-d h:i:sa'));
+        $datetime = date('Y-m-d h:i:sa');
         $ip = strval($_SERVER['REMOTE_ADDR']);
         $browser = get_browser(null, true);
         $client = strval($browser['parent']);
