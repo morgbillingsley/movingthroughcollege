@@ -1,5 +1,5 @@
       <?php get_header(); ?>
-      <div id="home" class="parallax first-section" style="background-image:url('<?php bloginfo('template_url'); ?>');">
+      <div id="home" class="parallax first-section" style="background-image:url('<?php bloginfo('template_url'); ?>/images/boxes3.jpg');">
          <div class="container">
             <div class="row justify-content-center">
                <div class="col-md-12">
