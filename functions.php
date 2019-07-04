@@ -40,8 +40,8 @@
         $wpdb->insert($table, $data, $format);
 
         // Send notification
-        // $message = "A new contact form was submitted by {$fname} {$lname}.";
-        // pushover($message);
+        $message = "A new contact form was submitted by {$fname} {$lname} for {$service}.";
+        pushover($message);
 
         // Redirect to homepage
         wp_redirect('http://movingthroughcollege.com/');
@@ -49,7 +49,7 @@
     
     function pushover($message) {
         $params = array(
-            "token" => "aso8szzsjrbjswfo9w6n81qsxb5chf",
+            "token" => "adcuf77pykadwm6zyj14b9vfyhhy84",
             "user" => "u4r33u7gk4txdjfcv1m2qxjnwrmag4",
             "message" => $message
         );
