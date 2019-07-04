@@ -10,7 +10,7 @@
    <title><?php bloginfo('name') ?></title>
    <meta name="description" content="<?php bloginfo('description') ?>">
    <!-- Site Icons -->
-   <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/images/fevicon.ico.png" type="image/x-icon" />
+   <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/images/favicon.png" type="image/x-icon" />
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.min.css">
    <!-- Site CSS -->
