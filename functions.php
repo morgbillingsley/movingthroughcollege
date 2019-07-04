@@ -11,9 +11,9 @@
         // Post data
         $fname = strval($_POST['fname']);
         $lname = strval($_POST['lname']);
-        $email = straval($_POST['email']);
+        $email = strval($_POST['email']);
         $phone = strval($_POST['phone']);
-        $service = $_POST['service'];
+        $service = strval($_POST['service']);
         $message = strval($_POST['message']);
         $datetime = date('Y-m-d h:i:sa');
         $ip = strval($_SERVER['REMOTE_ADDR']);
