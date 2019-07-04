@@ -60,7 +60,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="index.html"><img src="images/logo-icon.png" alt="image"><span>Moving Through College</span></a>
+                  <a class="navbar-brand" href="index.html"><img src="<?php bloginfo('template_url'); ?>/images/logo-icon.png" alt="image"><span>Moving Through College</span></a>
                </div>
                <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">

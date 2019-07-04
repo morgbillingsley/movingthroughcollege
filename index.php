@@ -105,7 +105,7 @@
             <div class="row">
                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 serv" style="background-color:#222;">
                   <div class="serv-blog">
-                     <img src="images/sr1.png" alt="#" />
+                     <img src="<?php bloginfo('template_url'); ?>/images/sr1.png" alt="#" />
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Moving Labor</h3>
@@ -114,7 +114,7 @@
                </div>
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#181818;">
                   <div class="serv-blog">
-                     <img src="images/sr2.png" alt="#" />
+                     <img src="<?php bloginfo('template_url'); ?>/images/sr2.png" alt="#" />
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Labor &amp Truck</h3>
@@ -123,7 +123,7 @@
                </div>
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#222;">
                   <div class="serv-blog">
-                     <img src="images/sr3.png" alt="#" />
+                     <img src="<?php bloginfo('template_url'); ?>/images/sr3.png" alt="#" />
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Long Distance</h3>
