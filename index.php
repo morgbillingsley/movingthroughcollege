@@ -21,7 +21,7 @@
                                        <p><i class="fa fa-envelope"></i>$75-$135/hour</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <a data-scroll="" onclick="changeOption('Moving Labor');" href="#contact-form" class="read-more">Get Estimate</a>
+                                       <a data-scroll="" onclick="changeOption(1);" href="#contact-form" class="read-more">Get Estimate</a>
                                     </div>
                                  </div>
                               </div>
@@ -39,7 +39,7 @@
                                        <p><i class="fa fa-database"></i>Under 100 miles</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <a data-scroll="" onclick="changeOption('Labor and Truck');" href="#contact-form" class="read-more">Get Estimate</a>
+                                       <a data-scroll="" onclick="changeOption(2);" href="#contact-form" class="read-more">Get Estimate</a>
                                     </div>
                                  </div>
                               </div>
@@ -57,7 +57,7 @@
                                        <p><i class="fa fa-database"></i>Prices vary</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <a data-scroll="" onclick="changeOption('Long Distance');" href="#contact-form" class="read-more">Get Estimate</a>
+                                       <a data-scroll="" onclick="changeOption(3);" href="#contact-form" class="read-more">Get Estimate</a>
                                     </div>
                                  </div>
                               </div>
