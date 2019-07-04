@@ -21,7 +21,7 @@
                                        <p><i class="fa fa-envelope"></i>$75-$135/hour</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <button data-scroll="" class="read-more">Get Estimate</button>
+                                       <button data-scroll="" onclick="changeOption('Moving Labor');" class="read-more">Get Estimate</button>
                                     </div>
                                  </div>
                               </div>
@@ -39,7 +39,7 @@
                                        <p><i class="fa fa-database"></i>Under 100 miles</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <button data-scroll="" class="read-more">Get Estimate</button>
+                                       <button data-scroll="" onclick="changeOption('Labor and Truck');" class="read-more">Get Estimate</button>
                                     </div>
                                  </div>
                               </div>
@@ -57,7 +57,7 @@
                                        <p><i class="fa fa-database"></i>Prices vary</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <button data-scroll="" class="read-more">Get Estimate</button>
+                                       <button data-scroll="" onclick="changeOption('Long Distance');" class="read-more">Get Estimate</button>
                                     </div>
                                  </div>
                               </div>
@@ -183,7 +183,7 @@
                <div class="col-md-8">
                   <div class="contact_form">
                      <div id="message"></div>
-                     <form class="row" action="<?php echo esc_url(admin_url("admin-post.php")); ?>" method="POST">
+                     <form class="row" action="<?php echo esc_url(admin_url("admin-post.php")); ?>" id="contact-form" method="POST">
                         <input type="hidden" name="action" value="contact">
                         <fieldset class="row-fluid">
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -200,7 +200,7 @@
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <label class="sr-only">Select a Service</label>
-                              <select name="service" class="selectpicker form-control" data-style="btn-white">
+                              <select name="service" id="service" class="selectpicker form-control" data-style="btn-white">
                                  <option value="0" disabled>Select Service</option>
                                  <option value="Moving Labor">Moving Labor</option>
                                  <option value="Labor and Truck">Labor and Truck</option>
