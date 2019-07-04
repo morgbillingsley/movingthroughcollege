@@ -183,7 +183,7 @@
                <div class="col-md-8">
                   <div class="contact_form">
                      <div id="message"></div>
-                     <form id="contactform" class="row" action="<?php echo esc_url(admin_url("admin-post.php")); ?>" name="contactform" method="post">
+                     <form id="contactform" class="row" action="<?php echo esc_url(admin_url("admin-post.php")); ?>" name="contactform" method="POST">
                         <input type="hidden" name="action" value="contact">
                         <fieldset class="row-fluid">
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -211,7 +211,7 @@
                               <textarea class="form-control" name="message" id="message" rows="6" placeholder="Give us some more details.."></textarea>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                              <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get Estimate</button>
+                              <button type="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get Estimate</button>
                            </div>
                         </fieldset>
                      </form>
