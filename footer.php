@@ -66,6 +66,12 @@
       <!-- ALL PLUGINS -->
       <script src="<?php bloginfo('template_url') ?>/js/custom.js"></script>
       <script src="<?php bloginfo('template_url') ?>/js/portfolio.js"></script>
-      <script src="<?php bloginfo('template_url') ?>/js/hoverdir.js"></script>   
+      <script src="<?php bloginfo('template_url') ?>/js/hoverdir.js"></script>
+      
+      <script>
+         function changeOption(value) {
+            $('#service').val(value);
+         }
+      </script>
    </body>
 </html>
