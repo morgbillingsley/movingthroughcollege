@@ -61,13 +61,22 @@
       </footer>
       <!-- end footer -->
       <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      
+      <!-- ALL JS FILES -->
+      <script src="<?php bloginfo('template_url'); ?>/js/all.js"></script>
+      <!-- CUSTOM JS -->
       <script>
          function changeOption(value) {
             document.getElementById("service").selectedIndex = value;
          }
+         // jQuery
+         $('select').on('change', () => {
+            if $(this).val()
+               $(this).css('color', '#efefef');
+            else
+               $(this).css('color', '#ccc');
+         });
       </script>
-      <!-- ALL JS FILES -->
-      <script src="<?php bloginfo('template_url'); ?>/js/all.js"></script>
       <!-- ALL PLUGINS -->
       <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
       <script src="<?php bloginfo('template_url'); ?>/js/portfolio.js"></script>
