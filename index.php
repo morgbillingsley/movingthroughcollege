@@ -183,23 +183,24 @@
                <div class="col-md-8">
                   <div class="contact_form">
                      <div id="message"></div>
-                     <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                     <form id="contactform" class="row" action="<?php echo esc_url(admin_url("admin-post.php")); ?>" name="contactform" method="post">
+                        <input type="hidden" name="action" value="contact">
                         <fieldset class="row-fluid">
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                              <input type="text" name="fname" id="first_name" class="form-control" placeholder="First Name">
                            </div>
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                              <input type="text" name="lname" id="last_name" class="form-control" placeholder="Last Name">
                            </div>
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                              <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
                            </div>
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Website">
+                              <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number">
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <label class="sr-only">Select a Service</label>
-                              <select name="select_service" id="select_service" class="selectpicker form-control" data-style="btn-white">
+                              <select name="service" id="service" class="selectpicker form-control" data-style="btn-white">
                                  <option value="0" disabled>Select Service</option>
                                  <option value="Moving Labor">Moving Labor</option>
                                  <option value="Labor and Truck">Labor and Truck</option>
@@ -207,10 +208,10 @@
                               </select>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                              <textarea class="form-control" name="message" id="message" rows="6" placeholder="Give us some more details.."></textarea>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                              <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get Estimate</button>
+                              <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get Estimate</button>
                            </div>
                         </fieldset>
                      </form>
