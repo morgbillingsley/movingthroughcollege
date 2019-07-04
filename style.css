@@ -1511,7 +1511,7 @@ select.mobile-device {
     border-right: none;
     border-left: none;
     border-top: 0;
-    border-bottom: 2px solid #aeaeae;
+    border-bottom: 2px solid #efefef;
     box-sizing: border-box;
     color: #666;
     font-size: 16px;
@@ -1530,14 +1530,17 @@ select.mobile-device {
     border-radius: 0;
 }
 .contact_form .form-control::-webkit-input-placeholder {
-    color: #aeaeae;
+    color: #efefef;
 }
 .contact_form .form-control::-moz-placeholder {
     opacity: 1;
-    color: #aeaeae;
+    color: #efefef;
 }
 .contact_form .form-control::-ms-input-placeholder {
-    color: #aeaeae;
+    color: #efefef;
+}
+.contact_form select:disabled {
+    color: #efefef;
 }
 /*------------------------------------------------------------------
     FOOTER
