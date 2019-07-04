@@ -67,10 +67,10 @@
          }
       </script>
       <!-- ALL JS FILES -->
-      <!-- <script src="<?php // bloginfo('template_url'); ?>/js/all.js"></script> -->
+      <script src="<?php bloginfo('template_url'); ?>/js/all.js"></script>
       <!-- ALL PLUGINS -->
-      <!-- <script src="<?php // bloginfo('template_url'); ?>/js/custom.js"></script>
-      <script src="<?php // bloginfo('template_url'); ?>/js/portfolio.js"></script>
-      <script src="<?php // bloginfo('template_url'); ?>/js/hoverdir.js"></script> -->
+      <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
+      <script src="<?php bloginfo('template_url'); ?>/js/portfolio.js"></script>
+      <script src="<?php bloginfo('template_url'); ?>/js/hoverdir.js"></script>
    </body>
 </html>

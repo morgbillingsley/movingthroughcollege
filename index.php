@@ -200,7 +200,7 @@
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <label class="sr-only" for="service">Select a Service</label>
-                              <select name="service" id="service" class="selectpicker form-control" data-style="btn-white">
+                              <select name="service" id="service" class="form-control" data-style="btn-white">
                                  <option value="0 " selected disabled>Select Service</option>
                                  <option value="Moving Labor">Moving Labor</option>
                                  <option value="Labor and Truck">Labor and Truck</option>
