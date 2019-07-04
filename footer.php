@@ -70,7 +70,7 @@
       
       <script>
          function changeOption(value) {
-            $('#service').val(value);
+            document.getElementById("service").selectedIndex = value;
          }
       </script>
    </body>

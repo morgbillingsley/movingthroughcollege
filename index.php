@@ -21,7 +21,7 @@
                                        <p><i class="fa fa-envelope"></i>$75-$135/hour</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <a data-scroll="" onclick="changeOption(1);" href="#contact-form" class="read-more">Get Estimate</a>
+                                       <a data-scroll="" onclick="changeOption('1');" href="#contact-form" class="read-more">Get Estimate</a>
                                     </div>
                                  </div>
                               </div>
@@ -39,7 +39,7 @@
                                        <p><i class="fa fa-database"></i>Under 100 miles</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <a data-scroll="" onclick="changeOption(2);" href="#contact-form" class="read-more">Get Estimate</a>
+                                       <a data-scroll="" onclick="changeOption('2');" href="#contact-form" class="read-more">Get Estimate</a>
                                     </div>
                                  </div>
                               </div>
@@ -57,7 +57,7 @@
                                        <p><i class="fa fa-database"></i>Prices vary</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
-                                       <a data-scroll="" onclick="changeOption(3);" href="#contact-form" class="read-more">Get Estimate</a>
+                                       <a data-scroll="" onclick="changeOption('3');" href="#contact-form" class="read-more">Get Estimate</a>
                                     </div>
                                  </div>
                               </div>
@@ -201,7 +201,7 @@
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <label class="sr-only">Select a Service</label>
                               <select name="service" id="service" class="selectpicker form-control" data-style="btn-white">
-                                 <option value="0" disabled>Select Service</option>
+                                 <option value="0 selected" disabled>Select Service</option>
                                  <option value="Moving Labor">Moving Labor</option>
                                  <option value="Labor and Truck">Labor and Truck</option>
                                  <option value="Long Distance">Long Distance</option>
