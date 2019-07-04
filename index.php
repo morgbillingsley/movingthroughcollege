@@ -1,77 +1,79 @@
       <?php get_header(); ?>
       <div id="home" class="parallax first-section" style="background-image:url('<?php bloginfo('template_url'); ?>/images/boxes3.jpg');">
-         <div class="container">
-            <div class="row justify-content-center">
-               <div class="col-md-12">
-                  <div class="tab-content">
-                     <div class="tab-pane active fade in" id="tab1">
-                        <div class="row text-center">
-                           <div class="col-md-4">
-                              <div class="pricing-table">
-                                 <div class="pricing-table-header">
-                                    <h2>Moving Labor</h2>
-                                    <p>Local moves only</p>
+         <div class="overlay">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-md-12">
+                     <div class="tab-content">
+                        <div class="tab-pane active fade in" id="tab1">
+                           <div class="row text-center">
+                              <div class="col-md-4">
+                                 <div class="pricing-table">
+                                    <div class="pricing-table-header">
+                                       <h2>Moving Labor</h2>
+                                       <p>Local moves only</p>
+                                    </div>
+                                    <div class="pricing-table-space"></div>
+                                    <div class="pricing-table-features">
+                                       <p><i class="fa fa-envelope-o"></i>No truck included</p>
+                                       <p><i class="fa fa-rocket"></i>2-4 movers</p>
+                                       <p><i class="fa fa-database"></i>Ideal for 1-way moves</p>
+                                       <p><i class="fa fa-envelope"></i>$75-$135/hour</p>
+                                    </div>
+                                    <div class="pricing-table-sign-up">
+                                       <button data-scroll="" class="read-more">Get Estimate</button>
+                                    </div>
                                  </div>
-                                 <div class="pricing-table-space"></div>
-                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i>No truck included</p>
-                                    <p><i class="fa fa-rocket"></i>2-4 movers</p>
-                                    <p><i class="fa fa-database"></i>Ideal for 1-way moves</p>
-                                    <p><i class="fa fa-envelope"></i>$75-$135/hour</p>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="pricing-table">
+                                    <div class="pricing-table-header">
+                                       <h2>Labor &amp Truck</h2>
+                                       <p>Local moves only</p>
+                                    </div>
+                                    <div class="pricing-table-space"></div>
+                                    <div class="pricing-table-features">
+                                       <p><i class="fa fa-envelope-o"></i>2-4 movers</p>
+                                       <p><i class="fa fa-link"></i>One, 10ft-26ft, box truck</p>
+                                       <p><i class="fa fa-rocket"></i>Prices vary</p>
+                                       <p><i class="fa fa-database"></i>Under 100 miles</p>
+                                    </div>
+                                    <div class="pricing-table-sign-up">
+                                       <button data-scroll="" class="read-more">Get Estimate</button>
+                                    </div>
                                  </div>
-                                 <div class="pricing-table-sign-up">
-                                    <button data-scroll="" class="read-more">Get Estimate</button>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="pricing-table">
+                                    <div class="pricing-table-header">
+                                       <h2>Long Distance</h2>
+                                       <p>100+ miles</p>
+                                    </div>
+                                    <div class="pricing-table-space"></div>
+                                    <div class="pricing-table-features">
+                                       <p><i class="fa fa-link"></i>Available Nationwide</p>
+                                       <p><i class="fa fa-envelope-o"></i>2 movers</p>
+                                       <p><i class="fa fa-rocket"></i>One, 10ft-26ft, box truck</p>
+                                       <p><i class="fa fa-database"></i>Prices vary</p>
+                                    </div>
+                                    <div class="pricing-table-sign-up">
+                                       <button data-scroll="" class="read-more">Get Estimate</button>
+                                    </div>
                                  </div>
                               </div>
                            </div>
-                           <div class="col-md-4">
-                              <div class="pricing-table">
-                                 <div class="pricing-table-header">
-                                    <h2>Labor &amp Truck</h2>
-                                    <p>Local moves only</p>
-                                 </div>
-                                 <div class="pricing-table-space"></div>
-                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i>2-4 movers</p>
-                                    <p><i class="fa fa-link"></i>One, 10ft-26ft, box truck</p>
-                                    <p><i class="fa fa-rocket"></i>Prices vary</p>
-                                    <p><i class="fa fa-database"></i>Under 100 miles</p>
-                                 </div>
-                                 <div class="pricing-table-sign-up">
-                                    <button data-scroll="" class="read-more">Get Estimate</button>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="pricing-table">
-                                 <div class="pricing-table-header">
-                                    <h2>Long Distance</h2>
-                                    <p>100+ miles</p>
-                                 </div>
-                                 <div class="pricing-table-space"></div>
-                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-link"></i>Available Nationwide</p>
-                                    <p><i class="fa fa-envelope-o"></i>2 movers</p>
-                                    <p><i class="fa fa-rocket"></i>One, 10ft-26ft, box truck</p>
-                                    <p><i class="fa fa-database"></i>Prices vary</p>
-                                 </div>
-                                 <div class="pricing-table-sign-up">
-                                    <button data-scroll="" class="read-more">Get Estimate</button>
-                                 </div>
-                              </div>
-                           </div>
+                           <!-- end row -->
                         </div>
-                        <!-- end row -->
+                        <!-- end pane -->
                      </div>
-                     <!-- end pane -->
+                     <!-- end content -->
                   </div>
-                  <!-- end content -->
+                  <!-- end col -->
                </div>
-               <!-- end col -->
+               <!-- end row -->
             </div>
-            <!-- end row -->
+            <!-- end container -->
          </div>
-         <!-- end container -->
       </div>
       <!-- end section -->
       <div id="about" class="section wb">

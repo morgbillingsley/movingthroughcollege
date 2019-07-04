@@ -107,7 +107,13 @@ body.building_version .header_style_01 .navbar-default .navbar-nav > li:active a
     color: #ae2e2f !important;
 }
 
-body.building_version .first-section {
+/* body.building_version .first-section {
+    padding: 12em 0;
+} */
+body.building_version .overlay {
+    height: inherit;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
     padding: 12em 0;
 }
 
