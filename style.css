@@ -1539,7 +1539,7 @@ select.mobile-device {
 .contact_form .form-control::-ms-input-placeholder {
     color: #efefef;
 }
-.contact_form select:disabled {
+[disabled] {
     color: #efefef;
 }
 /*------------------------------------------------------------------
