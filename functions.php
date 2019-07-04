@@ -13,7 +13,7 @@
         $lname = strval($_POST['lname']);
         $email = straval($_POST['email']);
         $phone = strval($_POST['phone']);
-        $service = strval($_POST['service']);
+        $service = $_POST['service'];
         $message = strval($_POST['message']);
         $datetime = date('Y-m-d h:i:sa');
         $ip = strval($_SERVER['REMOTE_ADDR']);
@@ -40,8 +40,8 @@
         $wpdb->insert($table, $data, $format);
 
         // Send notification
-        $message = "A new contact form was submitted by {$fname} {$lname}.";
-        pushover($message);
+        // $message = "A new contact form was submitted by {$fname} {$lname}.";
+        // pushover($message);
 
         // Redirect to homepage
         wp_redirect('http://movingthroughcollege.com/');
