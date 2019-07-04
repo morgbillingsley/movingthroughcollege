@@ -61,17 +61,16 @@
       </footer>
       <!-- end footer -->
       <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      <script>
+         function changeOption(value) {
+            document.getElementById("service").selectedIndex = value;
+         }
+      </script>
       <!-- ALL JS FILES -->
       <script src="<?php bloginfo('template_url') ?>/js/all.js"></script>
       <!-- ALL PLUGINS -->
       <script src="<?php bloginfo('template_url') ?>/js/custom.js"></script>
       <script src="<?php bloginfo('template_url') ?>/js/portfolio.js"></script>
       <script src="<?php bloginfo('template_url') ?>/js/hoverdir.js"></script>
-      
-      <script>
-         function changeOption(value) {
-            document.getElementById("service").selectedIndex = value;
-         }
-      </script>
    </body>
 </html>

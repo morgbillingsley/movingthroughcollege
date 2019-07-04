@@ -1539,9 +1539,6 @@ select.mobile-device {
 .contact_form .form-control::-ms-input-placeholder {
     color: #bcbcbc;
 }
-#contact {
-    background: url(images/bg.png) no-repeat center center #fff;
-}
 /*------------------------------------------------------------------
     FOOTER
 -------------------------------------------------------------------*/
