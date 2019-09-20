@@ -13,7 +13,9 @@
         $lname = strval($_POST['lname']);
         $email = strval($_POST['email']);
         $phone = strval($_POST['phone']);
+        $packing = strval($_POST['packing']);
         $service = strval($_POST['service']);
+        $truck = ($_POST['truck-size'] != '0') ? strval($_POST['truck-size']) . 'ft' : 'n/a';
         $message = strval($_POST['message']);
         $datetime = date('Y-m-d h:i:sa');
         $ip = strval($_SERVER['REMOTE_ADDR']);
@@ -27,7 +29,9 @@
             'last_name' => $lname,
             'email' => $email,
             'phone' => $phone,
+            'packing' => $packing,
             'service' => $service,
+            'truck' => $truck,
             'message' => $message,
             'datetime' => $datetime,
             'ip_address' => $ip,
@@ -42,6 +46,46 @@
         // Send notification
         $message = "A new contact form was submitted by {$fname} {$lname} for {$service}.";
         pushover($message);
+
+        // Send Email
+        $to = 'morgan@morganbillingsley.com';
+        $subject = 'New Estimate Request';
+        $html = "<table>
+            <tr>
+                <th>Name</th>
+                <td>$fname $lname</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>$email</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>$phone</td>
+            </tr>
+            <tr>
+                <th>Packing</th>
+                <td>$packing</td>
+            </tr>
+            <tr>
+                <th>Service</th>
+                <td>$service</td>
+            </tr>
+            <tr>
+                <th>Truck</th>
+                <td>$truck</td>
+            </tr>
+            <tr>
+                <th>Message</th>
+                <td>$message</td>
+            </tr>
+            <tr>
+                <th>ipv4</th>
+                <td>$ip</td>
+            </tr>
+        </table>";
+        $headers = array('Content-Type: text/html; charset=UTF-8');
+        wp_mail($to, $subject, $html, $headers);
 
         // Redirect to homepage
         wp_redirect('http://movingthroughcollege.com/');

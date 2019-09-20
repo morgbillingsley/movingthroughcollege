@@ -206,13 +206,13 @@
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <div class="form-check" style="padding: 15px 0 30px 0;">
-                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                 <label class="form-check-label radio-inline" for="no-packing"><input class="form-check-input" type="radio" name="packing" id="no-packing" value="none" checked>
                                     No Packing
                                  </label>
-                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                 <label class="form-check-label radio-inline" for="partial-packing"><input class="form-check-input" type="radio" name="packing" id="partial-packing" value="partial">
                                     Partial Packing
                                  </label>
-                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                 <label class="form-check-label radio-inline" for="full-packing"><input class="form-check-input" type="radio" name="packing" id="full-packing" value="full">
                                     Full Packing
                                  </label>
                               </div>
@@ -226,7 +226,7 @@
                                  <option value="Long Distance">Long Distance</option>
                               </select>
                            </div>
-                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0 0 0 20px;">
                               <small class="service-desc" id="serviceDesc"></small>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
