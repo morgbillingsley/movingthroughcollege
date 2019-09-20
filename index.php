@@ -111,7 +111,8 @@
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Moving Labor</h3>
-                     <p><small>Local Moves Only (Phoenix Metropolitan Area)</small><br>
+                     <small>Local Moves Only (Phoenix Metropolitan Area)</small>
+                     <p>
                         Is good for long distance moves where you want to do the driving yourself but don’t want to do the work of loading all the heavy furniture by yourself</p>
                   </div>
                </div>
@@ -121,7 +122,8 @@
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Labor &amp Truck</h3>
-                     <p><small>Local Moves Only (Phoenix Metropolitan Area)</small><br>
+                     <small>Local Moves Only (Phoenix Metropolitan Area)</small>
+                     <p>
                         Is an affordable way to have all your belongs moved without having to deal with any of the heavy lifting or driving a giant truck.</p>
                   </div>
                </div>
@@ -131,7 +133,8 @@
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Long Distance</h3>
-                     <p><small>100+ Miles (Nation Wide, Not just Phoenix)</small><br>
+                     <small>100+ Miles (Nation Wide, Not just Phoenix)</small>
+                     <p>
                         Is for moves +100 miles. We will have moving truck, load, drive, and unload your belongings in a sufficient time.</p>
                   </div>
                </div>

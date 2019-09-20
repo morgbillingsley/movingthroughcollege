@@ -646,6 +646,9 @@ div#services .serv .service-inform-text p {
 #services .serv-blog-cont h3 {
     color: #fff;
 }
+#services .serv-blog-cont small {
+    font-weight: bold;
+}
 .serv-blog-cont p {
     float: left;
     width: 80%;
