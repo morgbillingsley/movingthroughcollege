@@ -84,8 +84,7 @@
                 <td>$ip</td>
             </tr>
         </table>";
-        $headers = array('Content-Type: text/html; charset=UTF-8');
-        wp_mail($to, $subject, $html, $headers);
+        sendgrid($to, $subject, $html);
 
         // Redirect to homepage
         wp_redirect('http://movingthroughcollege.com/');
@@ -115,7 +114,7 @@
         curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Bearer $apikey", 'Content-Type: application/json'));
         curl_setopt ($curl, CURLOPT_POST, true);
         curl_setopt ($curl, CURLOPT_POSTFIELDS, $params);
-        
+
         $response = curl_exec($curl);
         curl_close($curl);
     }
