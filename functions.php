@@ -111,7 +111,7 @@
         $params = "{\'personalizations\': [{\'to\': [{\'email\': \'$to\'}]}],\'from\': {\'email\': \'rubendrotz@movingthroughcollege.com\'},\'subject\': \'$subject\',\'content\': [{\'type\': \'text/html\', \'value\': $body}]}";
 
         $curl = curl_init($url);
-        // curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
+        curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
         curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Bearer $apikey", 'Content-Type: application/json'));
         curl_setopt($curl, CURLOPT_POST, true);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $params);
