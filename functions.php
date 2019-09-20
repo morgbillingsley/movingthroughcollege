@@ -84,7 +84,8 @@
                 <td>$ip</td>
             </tr>
         </table>";
-        sendgrid($to, $subject, $html);
+        $plain = "Name: $fname $lname\nEmail: $email\nPhone: $phone\nPacking: $packing\nService: $service\nTruck: $truck\nMessage: $message";
+        sendgrid($to, $subject, $plain);
 
         // Redirect to homepage
         wp_redirect('http://movingthroughcollege.com/');
@@ -116,8 +117,8 @@
             'from' => array('email' => 'rubendrotz@movingthroughcollege.com'),
             'subject' => $subject,
             'content' => array(
-                'type' => 'text/html',
-                'value' => $html
+                'type' => 'text/plain',
+                'value' => $body
             )
         );
         $json = json_encode($params);
