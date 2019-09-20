@@ -63,9 +63,22 @@
       <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
       
       <script>
+         const service = document.getElementById("service");
+         const serviceDesc = document.getElementById("serviceDesc");
          function changeOption(value) {
-            document.getElementById("service").selectedIndex = value;
+            service.selectedIndex = value;
          }
+         service.addEventListener('change', function() {
+            if (service.value === 'Moving Labor') {
+               serviceDesc.innerHTML = 'Is good for long distance moves where you want to do the driving yourself but don’t want to do the work of loading all the heavy furniture by yourself.';
+            } else if (service.value === 'Labor and Truck') {
+               serviceDesc.innerHTML = 'Is an affordable way to have all your belongs moved without having to deal with any of the heavy lifting or driving a giant truck.';
+            } else if (service.value === 'Long Distance') {
+               serviceDesc.innerHTML = 'Is for moves +100 miles. We will have moving truck, load, drive, and unload your belongings in a sufficient time.';
+            } else {
+               serviceDesc.innerHTML = '';
+            }
+         });
       </script>
       
       <!-- ALL JS FILES -->
