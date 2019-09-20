@@ -217,16 +217,15 @@
                               <p class="service-desc" id="serviceDesc"></p>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <div class="form-check">
-                                 <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                 <label class="form-check-label" for="exampleRadios1">
-                                    Default radio
+                              <div class="form-check p-4">
+                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    No Packing
                                  </label>
-                              </div>
-                              <div class="form-check">
-                                 <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                 <label class="form-check-label" for="exampleRadios2">
-                                    Second default radio
+                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    Partial Packing
+                                 </label>
+                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    Full Packing
                                  </label>
                               </div>
                            </div>
