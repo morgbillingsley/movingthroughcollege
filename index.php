@@ -205,6 +205,19 @@
                               <input type="text" name="phone" class="form-control" placeholder="Phone Number">
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="form-check p-4">
+                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    No Packing
+                                 </label>
+                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    Partial Packing
+                                 </label>
+                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    Full Packing
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <label class="sr-only" for="service">Select a Service</label>
                               <select name="service" id="service" class="form-control" data-style="btn-white">
                                  <option value="0 " selected disabled>Select Service</option>
@@ -217,17 +230,15 @@
                               <p class="service-desc" id="serviceDesc"></p>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <div class="form-check p-4">
-                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    No Packing
-                                 </label>
-                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    Partial Packing
-                                 </label>
-                                 <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    Full Packing
-                                 </label>
-                              </div>
+                              <label class="sr-only" for="service">Select a Truck Size</label>
+                              <select name="truck-size" id="truckSize" class="form-control" data-style="btn-white" style="display:none;">
+                                 <option value="0 " selected disabled>Select Truck Size</option>
+                                 <option value="10">10ft Truck</option>
+                                 <option value="15">15ft Truck</option>
+                                 <option value="17">17ft Truck</option>
+                                 <option value="20">20ft Truck</option>
+                                 <option value="26">26ft Truck</option>
+                              </select>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <textarea class="form-control" name="message" rows="6" placeholder="Give us some more details.."></textarea>
