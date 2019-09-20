@@ -27,7 +27,7 @@
    <body class="building_version" data-spy="scroll" data-target=".header">
       <!-- LOADER -->
       <div id="preloader">
-         <img class="preloader" src="<?php bloginfo('template_url') ?>images/prettyPhoto/default/loader.gif" alt="">
+         <img class="preloader" src="<?php bloginfo('template_url') ?>/images/prettyPhoto/default/loader.gif" alt="">
       </div>
       <!-- end loader -->
       <!-- END LOADER -->
