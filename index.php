@@ -16,7 +16,7 @@
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
                                        <p><i class="fas fa-ban"></i>No truck included</p>
-                                       <p><i class="fas fa-people-moving"></i>2-4 movers</p>
+                                       <p><i class="fas fa-people-carry"></i>2-4 movers</p>
                                        <p><i class="fas fa-location-arrow"></i>Ideal for 1-way moves</p>
                                        <p><i class="fas fa-dollar-sign"></i>$75-$135/hour</p>
                                     </div>
@@ -33,7 +33,7 @@
                                     </div>
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
-                                       <p><i class="fas fa-people-moving"></i>2-4 movers</p>
+                                       <p><i class="fas fa-people-carry"></i>2-4 movers</p>
                                        <p><i class="fas fa-truck"></i>One, 10ft-26ft, box truck</p>
                                        <p><i class="fas fa-dollar-sign"></i>Prices vary</p>
                                        <p><i class="fas fa-tachometer-alt"></i>Under 100 miles</p>
@@ -52,7 +52,7 @@
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
                                        <p><i class="fas fa-map"></i>Available Nationwide</p>
-                                       <p><i class="fas fa-people-moving"></i>2 movers</p>
+                                       <p><i class="fas fa-people-carry"></i>2 movers</p>
                                        <p><i class="fas fa-truck"></i>One, 10ft-26ft, box truck</p>
                                        <p><i class="fas fa-dollar-sign"></i>Prices vary</p>
                                     </div>
