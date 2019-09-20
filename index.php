@@ -15,10 +15,10 @@
                                     </div>
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
-                                       <p><i class="fa fa-envelope-o"></i>No truck included</p>
-                                       <p><i class="fa fa-rocket"></i>2-4 movers</p>
-                                       <p><i class="fa fa-database"></i>Ideal for 1-way moves</p>
-                                       <p><i class="fa fa-envelope"></i>$75-$135/hour</p>
+                                       <p><i class="fas fa-ban"></i>No truck included</p>
+                                       <p><i class="fas fa-people-moving"></i>2-4 movers</p>
+                                       <p><i class="fas fa-location-arrow"></i>Ideal for 1-way moves</p>
+                                       <p><i class="fas fa-dollar-sign"></i>$75-$135/hour</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
                                        <a data-scroll="" onclick="changeOption('1');" href="#contact-form" class="read-more">Get Estimate</a>
@@ -33,10 +33,10 @@
                                     </div>
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
-                                       <p><i class="fa fa-envelope-o"></i>2-4 movers</p>
-                                       <p><i class="fa fa-link"></i>One, 10ft-26ft, box truck</p>
-                                       <p><i class="fa fa-rocket"></i>Prices vary</p>
-                                       <p><i class="fa fa-database"></i>Under 100 miles</p>
+                                       <p><i class="fas fa-people-moving"></i>2-4 movers</p>
+                                       <p><i class="fas fa-truck"></i>One, 10ft-26ft, box truck</p>
+                                       <p><i class="fas fa-dollar-sign"></i>Prices vary</p>
+                                       <p><i class="fas fa-tachometer-alt"></i>Under 100 miles</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
                                        <a data-scroll="" onclick="changeOption('2');" href="#contact-form" class="read-more">Get Estimate</a>
@@ -51,10 +51,10 @@
                                     </div>
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
-                                       <p><i class="fa fa-link"></i>Available Nationwide</p>
-                                       <p><i class="fa fa-envelope-o"></i>2 movers</p>
-                                       <p><i class="fa fa-rocket"></i>One, 10ft-26ft, box truck</p>
-                                       <p><i class="fa fa-database"></i>Prices vary</p>
+                                       <p><i class="fas fa-map"></i>Available Nationwide</p>
+                                       <p><i class="fas fa-people-moving"></i>2 movers</p>
+                                       <p><i class="fas fa-truck"></i>One, 10ft-26ft, box truck</p>
+                                       <p><i class="fas fa-dollar-sign"></i>Prices vary</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
                                        <a data-scroll="" onclick="changeOption('3');" href="#contact-form" class="read-more">Get Estimate</a>
@@ -151,7 +151,7 @@
                      <ul class="item-display-block">
                         <li>
                            <div class="info-shape accent-color background fs-23">
-                              <div class="icon"><i class="fa fa-volume-control-phone"></i></div>
+                              <div class="icon"><i class="fas fa-phone-volume"></i></div>
                            </div>
                            <div class="info-content">
                               <h6 class="uppercase"> Phone No:</h6>
@@ -160,7 +160,7 @@
                         </li>
                         <li>
                            <div class="info-shape accent-color background fs-23">
-                              <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                              <div class="icon"><i class="fas fa-envelope"></i></div>
                            </div>
                            <div class="info-content">
                               <h6 class="uppercase"> Email Address:</h6>

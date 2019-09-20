@@ -328,11 +328,12 @@ body.building_version .section-title h3 {
     content: "\f101";
 }
 #footer-widgets .widget.widget_links ul li a::before {
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     font-size: 14px;
     position: absolute;
     left: 0;
     top: 0;
+    font-weight: 900;
 }
 #footer-widgets .widget.widget.widget_information ul .hl {
     font-weight: bold;

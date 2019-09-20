@@ -44,8 +44,8 @@
                         </div>
                         <div class="top-area-block top-area-socials socials-colored-hover">
                            <div class="socials inline-inside"> 
-                              <a class="socials-item" href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                              <a class="socials-item" href="#" target="_blank" title="linkedin"><i class="fa fa-yelp" aria-hidden="true"></i></a>
+                              <a class="socials-item" href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                              <a class="socials-item" href="#" target="_blank" title="linkedin"><i class="fab fa-yelp" aria-hidden="true"></i></a>
                            </div>
                         </div>
                      </div>

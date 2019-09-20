@@ -38,8 +38,8 @@
                   </div>
                   <div class="widget widget_socials">
                      <div class="socials">
-                        <a target="_blank" href="#"><i class="fa fa-yelp"></i></a>
-                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="#"><i class="fab fa-yelp"></i></a>
+                        <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
                      </div>
                   </div>
                </div>
