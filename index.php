@@ -205,7 +205,7 @@
                               <input type="text" name="phone" class="form-control" placeholder="Phone Number">
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <div class="form-check p-4">
+                              <div class="form-check" style="padding: 15px 0 30px 0;">
                                  <label class="form-check-label radio-inline" for="exampleRadios1"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                                     No Packing
                                  </label>
@@ -227,7 +227,7 @@
                               </select>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <p class="service-desc" id="serviceDesc"></p>
+                              <small class="service-desc" id="serviceDesc"></small>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <label class="sr-only" for="service">Select a Truck Size</label>
