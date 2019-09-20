@@ -44,7 +44,7 @@
 @import url(css/flaticon.css);
 @import url(css/prettyPhoto.css);
 @import url(css/owl.carousel.css);
-@import url(fonts/fontawesome/5.9.0/css/font-awesome.min.css);
+@import url(fonts/fontawesome/5.9.0/css/all.min.css);
 
 /*------------------------------------------------------------------
     SKELETON
@@ -688,9 +688,9 @@ li.social-links a {
 
 .pricing-table {
     margin: 55px 0;
-    background: #fff;
+    /* background: #fff; */
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px;
     overflow: hidden;
 }
 .pricing-table i {
@@ -712,7 +712,7 @@ li.social-links a {
 }
 .pricing-table-header {
     padding: 30px 0 25px 0;
-    background: #1f1f1f;
+    background: #131313;
     color: #fff;
 }
 .pricing-table-header h2 {
@@ -731,6 +731,7 @@ li.social-links a {
 }
 .pricing-table-space {
     height: 10px;
+    background: #fff;
 }
 .pricing-table-text {
     margin: 15px 30px 0 30px;
@@ -745,8 +746,9 @@ li.social-links a {
     font-weight: 400;
 }
 .pricing-table-features {
-    margin: 15px 0 0 0;
-    padding: 0 10px 15px 30px;
+    /* margin: 15px 0 0 0; */
+    padding: 15px 10px 15px 30px;
+    background: #fff;
     border-bottom: 1px solid #ececec;
     text-align: left;
     line-height: 30px;
@@ -760,6 +762,7 @@ li.social-links a {
 .pricing-table-sign-up {
     margin-top: 25px;
     padding-bottom: 30px;
+    background: #fff;
 }
 /* Highlighted table */
 
