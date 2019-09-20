@@ -217,6 +217,20 @@
                               <p class="service-desc" id="serviceDesc"></p>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="form-check">
+                                 <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                 <label class="form-check-label" for="exampleRadios1">
+                                    Default radio
+                                 </label>
+                              </div>
+                              <div class="form-check">
+                                 <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                 <label class="form-check-label" for="exampleRadios2">
+                                    Second default radio
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <textarea class="form-control" name="message" rows="6" placeholder="Give us some more details.."></textarea>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
