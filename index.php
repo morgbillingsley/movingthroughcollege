@@ -11,13 +11,13 @@
                                  <div class="pricing-table">
                                     <div class="pricing-table-header">
                                        <h2>Moving Labor</h2>
-                                       <p>Local moves only</p>
+                                       <p>Local Moves Only</p>
                                     </div>
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
-                                       <p><i class="fas fa-ban"></i>No truck included</p>
-                                       <p><i class="fas fa-people-carry"></i>2-4 movers</p>
                                        <p><i class="fas fa-location-arrow"></i>Ideal for 1-way moves</p>
+                                       <p><i class="fas fa-people-carry"></i>2-4 movers</p>
+                                       <p><i class="fas fa-ban"></i>No truck included</p>
                                        <p><i class="fas fa-dollar-sign"></i>$75-$135/hour</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
@@ -29,14 +29,14 @@
                                  <div class="pricing-table">
                                     <div class="pricing-table-header">
                                        <h2>Labor &amp Truck</h2>
-                                       <p>Local moves only</p>
+                                       <p>Local Moves Only</p>
                                     </div>
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
+                                       <p><i class="fas fa-tachometer-alt"></i>Under 100 miles</p>
                                        <p><i class="fas fa-people-carry"></i>2-4 movers</p>
                                        <p><i class="fas fa-truck"></i>One, 10ft-26ft, box truck</p>
                                        <p><i class="fas fa-dollar-sign"></i>Prices vary</p>
-                                       <p><i class="fas fa-tachometer-alt"></i>Under 100 miles</p>
                                     </div>
                                     <div class="pricing-table-sign-up">
                                        <a data-scroll="" onclick="changeOption('2');" href="#contact-form" class="read-more">Get Estimate</a>
@@ -47,7 +47,7 @@
                                  <div class="pricing-table">
                                     <div class="pricing-table-header">
                                        <h2>Long Distance</h2>
-                                       <p>100+ miles</p>
+                                       <p>100+ Miles</p>
                                     </div>
                                     <div class="pricing-table-space"></div>
                                     <div class="pricing-table-features">
@@ -89,7 +89,7 @@
                <!-- end col -->
                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <div class="message-box">
-                     <p class="lead">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
+                     <p class="lead">College Student Moving was created by Ruben Drotzmann, an ASU student. He was looking for a to pay all of the college expenses while still being able to have time to go to classes. He started in May of 2018, and found great success and customer satisfaction. Since then, He has been able to expand his business, hiring more college students to help them achieve the same goal of concurring college expenses and limiting dept.</p>
                      <a href="#" class="read-more">Read More</a>
                   </div>
                   <!-- end messagebox -->
@@ -107,29 +107,32 @@
             <div class="row">
                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 serv" style="background-color:#222;">
                   <div class="serv-blog">
-                     <img src="<?php bloginfo('template_url'); ?>/images/sr1.png" alt="#" />
+                     <i class="fas fa-5x fa-dolly"></i>
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Moving Labor</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                     <p>Local Moves Only (Phoenix Metropolitan Area)<br>
+                        Is good for long distance moves where you want to do the driving yourself but don’t want to do the work of loading all the heavy furniture by yourself</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#181818;">
                   <div class="serv-blog">
-                     <img src="<?php bloginfo('template_url'); ?>/images/sr2.png" alt="#" />
+                     <i class="fas fa-5x fa-truck"></i>
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Labor &amp Truck</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                     <p>Local Moves Only (Phoenix Metropolitan Area)<br>
+                        Is an affordable way to have all your belongs moved without having to deal with any of the heavy lifting or driving a giant truck.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#222;">
                   <div class="serv-blog">
-                     <img src="<?php bloginfo('template_url'); ?>/images/sr3.png" alt="#" />
+                     <i class="fas fa-5x fa-map"></i>
                   </div>
                   <div class="serv-blog-cont">
                      <h3>Long Distance</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                     <p>100+ Miles (Nation Wide, Not just Phoenix)<br>
+                        Is for moves +100 miles. We will have moving truck, load, drive, and unload your belongings in a sufficient time.</p>
                   </div>
                </div>
             </div>

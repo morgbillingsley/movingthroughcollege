@@ -6,7 +6,7 @@
                   <div class="widget widget_text">
                      <h2 class="widget-title"><span>ABOUT US</span></h2>
                      <div class="textwidget">
-                        <p>Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget. Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit ege  Aenean suscipit eget mi act fermentum phasellus.</p>
+                        <p>Moving Through College’s mission is to create jobs for college students and to work around their busy school schedule. With this job, we hope to put them through college with minimal or no dept.</p>
                      </div>
                   </div>
                </div>
