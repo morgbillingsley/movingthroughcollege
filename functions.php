@@ -50,8 +50,8 @@
         $wpdb->insert($table, $data, $format);
 
         // Send notification
-        $message = "A new contact form was submitted by {$fname} {$lname} for {$service}.";
-        pushover($message);
+        $pushMessage = "A new contact form was submitted by {$fname} {$lname} for {$service}.";
+        pushover($pushMessage);
 
         // Send Email
         $to = 'rubendrotz@movingthroughcollege.com';
