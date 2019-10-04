@@ -119,14 +119,14 @@
 
         try {
             //Server settings
-            $mail->SMTPDebug = 0;                      // Enable verbose debug output
+            $mail->SMTPDebug = SMTP::DEBUG_OFF;                      // Enable verbose debug output
             $mail->isSMTP();                                            // Send using SMTP
-            $mail->Host       = 'smtp.yandex.com';                    // Set the SMTP server to send through
-            $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username   = 'rubendrotz@movingthroughcollege.com';                     // SMTP username
-            $mail->Password   = 'drotz498';                               // SMTP password
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTSSL;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-            $mail->Port       = 465;                                    // TCP port to connect to
+            $mail->Host = 'smtp.yandex.com';                    // Set the SMTP server to send through
+            $mail->SMTPAuth = true;                                   // Enable SMTP authentication
+            $mail->Username = 'rubendrotz@movingthroughcollege.com';                     // SMTP username
+            $mail->Password = 'drotz498';                               // SMTP password
+            $mail->SMTPSecure = 'ssl';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+            $mail->Port = 465;                                    // TCP port to connect to
 
             //Recipients
             $mail->setFrom('rubendrotz@movingthroughcollege.com', 'Ruben Drotzmann');
@@ -135,7 +135,7 @@
             // Content
             $mail->isHTML(true);
             $mail->Subject = $subject;
-            $mail->Body    = $html;
+            $mail->Body = $html;
             $mail->AltBody = $plain;
 
             $mail->send();
