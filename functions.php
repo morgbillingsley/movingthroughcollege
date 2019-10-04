@@ -1,9 +1,9 @@
 <?php
     use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
 
-require '/var/www/html/vendor/autoload.php';
+    require '/var/www/html/vendor/autoload.php';
     // Theme Support
     add_theme_support('post-thumbnails');
 
