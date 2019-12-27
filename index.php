@@ -107,7 +107,7 @@
       <!-- end section -->
       <div id="services" class="parallax section db parallax-off no-padding-bottom">
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="row" style="display:flex;">
+            <div class="row" style="display:flex;flex-wrap:wrap;">
                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 serv" style="background-color:#222;">
                   <div class="serv-blog">
                      <i class="fas fa-5x fa-dolly"></i>
