@@ -82,14 +82,17 @@
                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <div class="message-box">
                      <h2>About Us</h2>
-                     <h5>We are college students looking to work hard and make money to help pay for college.</h5>
+                     <h5>We are hard-working college students looking for a way to make money to pay for college expenses. We show up on-time and work in an efficient manner to get your job done.</h5>
                   </div>
                   <!-- end messagebox -->
                </div>
                <!-- end col -->
                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <div class="message-box">
-                     <p class="lead">College Student Moving was created by Ruben Drotzmann, an ASU student. He was looking for a to pay all of the college expenses while still being able to have time to go to classes. He started in May of 2018, and found great success and customer satisfaction. Since then, He has been able to expand his business, hiring more college students to help them achieve the same goal of concurring college expenses and limiting dept.</p>
+                     <p class="lead">Moving Through College was created by Ruben Drotzmann. As an ASU student, he was looking for way to pay for all the
+                     expenses associated with going to college, while still having time for classes and homework. He started in May of 2018,
+                     and found great success and customer satisfaction. Since then, he’s been able to expand this business, hiring more
+                     college students, helping them achieve the same goal of conquering college expenses and limiting their debt.</p>
                      <a href="#" class="read-more">Read More</a>
                   </div>
                   <!-- end messagebox -->
@@ -113,7 +116,8 @@
                      <h3>Moving Labor</h3>
                      <small>Local Moves Only (Phoenix Metropolitan Area)</small>
                      <p>
-                        Is good for long distance moves where you want to do the driving yourself but don’t want to do the work of loading all the heavy furniture by yourself</p>
+                        Good for long distance moves where you provide the truck, but don’t want to do the heavy lifting and loading of your boxes and furniture.
+                     </p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#181818;">
@@ -124,7 +128,9 @@
                      <h3>Labor &amp Truck</h3>
                      <small>Local Moves Only (Phoenix Metropolitan Area)</small>
                      <p>
-                        Is an affordable way to have all your belongs moved without having to deal with any of the heavy lifting or driving a giant truck.</p>
+                        An affordable way to have all your belongings moved without doing the heavy lifting, renting a moving truck, and the
+                        logistics of driving a large box truck to and from locations.
+                     </p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#222;">
@@ -135,7 +141,8 @@
                      <h3>Long Distance</h3>
                      <small>100+ Miles (Nation Wide, Not just Phoenix)</small>
                      <p>
-                        Is for moves +100 miles. We will have moving truck, load, drive, and unload your belongings in a sufficient time.</p>
+                        For moves over 100 miles - We provide moving truck, load your belongings, deliver & unload your belongings in a timely manner.
+                     </p>
                   </div>
                </div>
             </div>

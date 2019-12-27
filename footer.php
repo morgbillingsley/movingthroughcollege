@@ -6,7 +6,11 @@
                   <div class="widget widget_text">
                      <h2 class="widget-title"><span>ABOUT US</span></h2>
                      <div class="textwidget">
-                        <p>Moving Through College’s mission is to create jobs for college students and to work around their busy school schedule. With this job, we hope to put them through college with minimal or no dept.</p>
+                        <p>
+                           Our mission is to create jobs for hard-working individuals looking for a way to work and earn money around their busy
+                           school schedules. These students are motivated with the common financial goal of getting through college with minimal
+                           or no debt.
+                        </p>
                      </div>
                   </div>
                </div>
